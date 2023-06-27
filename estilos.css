@@ -16,7 +16,7 @@ header {
   width: 100%;
   background-color: #211d1cf4;
   position: absolute;
-  top: 30px;
+  top: 15px;
 }
 #logo {
   width: 273px;
@@ -50,7 +50,7 @@ nav ul li a {
   text-align: center;
   color: white;
   font-family: helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   padding: 29px 0;
 }
@@ -61,23 +61,23 @@ section {
   margin: 0 auto;
 }
 #inicio {
-  width: 400px;
-  height: 400px;
+  width: 550px;
+  height: 550px;
   background-color: #211d1c96;
   font-family: helvetica;
   color: white;
   position: absolute;
-  top: 232px;
-  left: 103px;
+  top: 143px;
+  left: 35px;
   border-radius: 70px 0px;
 }
 #inicio h2 {
-  margin: 40px auto;
-  width: 250px;
+  margin: 35px auto;
+  width: 370px;
 }
 #inicio p {
-  margin: 6px auto;
-  width: 250px;
+  margin: 16px auto;
+  width: 370px;
 }
 #contacto h2 {
   width: 1080px;
@@ -92,9 +92,9 @@ section {
 }
 section p {
   font-family: helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: lighter;
-  text-align: justify;
+  line-height: 26px;
 }
 #contacto {
   background-image: url(imagenes/fondo-contacto.svg);
@@ -109,7 +109,7 @@ section p {
   margin: auto;
   width: 1080px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .redes img {
@@ -118,17 +118,19 @@ section p {
 
 .redes li {
   list-style: none;
-  width: 100px;
+  width: 150px;
   height: 100px;
   margin: auto 20px;
   text-align: center;
   display: inline-block;
+  
 }
 
 .redes li a {
   text-decoration: none;
   color: white;
   display: block;
+
 }
 
 .redes li a:hover {
@@ -141,6 +143,11 @@ section p {
   left: 250px;
 }
 
+iframe {
+  position: absolute;
+  z-index: 2;
+}
+
 .informacion {
   margin: auto;
   width: 300px;
@@ -149,8 +156,9 @@ section p {
   background-color: #8a2617d2;
   padding: 5px;
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 270px;
+  border-radius: 70px 0px;
 }
 
 .informacion img {
@@ -161,7 +169,7 @@ section p {
   list-style: none;
   width: 200px;
   height: 100px;
-  margin: 20px auto;
+  margin: 25px auto;
   text-align: center;
 }
 
@@ -179,7 +187,7 @@ section p {
   font-weight: bold;
 }
 .sub {
-  font-size: 10px;
+  font-size: 16px;
   display: block;
   padding: 7px;
 }
@@ -190,7 +198,7 @@ footer {
   background-color: #211d1c;
   color: white;
   margin: auto;
-  font-size: 12px;
+  font-size: 16px;
 }
 footer p {
   text-align: center;
